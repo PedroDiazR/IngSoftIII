@@ -24,8 +24,9 @@ Este trabajo práctico corresponde a la unidad Nº: 1
 En mi caso, utilice un editor llamado nano que puedo abrir simplemente con el comando con dicho nombre sumado al nombre del archivo desde la misma terminal de Ubuntu.
 
 ### 4- Creación de Repos 01 -> Crearlo en GitHub, clonarlo localmente y subir cambios
-  - Crear una cuenta en https://github.com [x]
-  - ![Crear un nuevo repositorio en dicha página con el Readme.md por defecto](Capturas/4a.png) 
+  - [x] Crear una cuenta en https://github.com
+  - Crear un nuevo repositorio en dicha página con el Readme.md por defecto
+    !(Capturas/4a.png) 
   - Clonar el repo remoto en un nuevo directorio local
   - Editar archivo Readme.md agregando algunas lineas de texto
   - Editar (o crear si no existe) el archivo .gitignore agregando los archivos *.bak
