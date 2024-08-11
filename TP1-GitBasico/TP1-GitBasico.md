@@ -16,9 +16,9 @@ Este trabajo práctico corresponde a la unidad Nº: 1
 ### 1- Instalar Git ✅
 
 ### 2- Crear un repositorio local y agregar archivos 
-  - Crear un repositorio local en un nuevo directorio.
-  - Agregar un archivo Readme.md, agregar algunas líneas con texto a dicho archivo.
-  - Crear un commit y proveer un mensaje descriptivo.
+  - Crear un repositorio local en un nuevo directorio. Agregar un archivo Readme.md, agregar algunas líneas con texto a dicho archivo. Crear un commit y proveer un mensaje descriptivo.
+
+  ![](Capturas/2.png) 
 
 ### 3- Configuración del Editor Predeterminado ✅
 En mi caso, utilice un editor llamado nano que puedo abrir simplemente con el comando con dicho nombre sumado al nombre del archivo desde la misma terminal de Ubuntu.
@@ -87,6 +87,7 @@ En mi caso, utilice un editor llamado nano que puedo abrir simplemente con el co
   - Hacer un merge FF
 
     ![](Capturas/7a.png)
+
   Como no hay commits en el main desde que cree la nueva rama, este será un merge Fast-Forward.  
   - Borrar la rama creada, Ver el log de commits
  
@@ -102,6 +103,7 @@ En mi caso, utilice un editor llamado nano que puedo abrir simplemente con el co
 
 ### 8- Resolución de Conflictos
   - Instalar alguna herramienta de comparación. Idealmente una 3-Way:
+    
     Me instalé esta llamada Meld
 
     ![](Capturas/8a.png)
