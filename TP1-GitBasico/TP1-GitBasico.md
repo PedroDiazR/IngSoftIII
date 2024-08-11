@@ -2,9 +2,9 @@
 Este trabajo práctico corresponde a la unidad Nº: 1
 
 ### Objetivos de Aprendizaje
- - Utilizar herramientas de control de configuración de software [x]
- - Familiarizarse con los comandos más utilizados [x]
- - Configurar el repositorio principal de cada alumno para la materia [x]
+ - [x] Utilizar herramientas de control de configuración de software
+ - [x] Familiarizarse con los comandos más utilizados
+ - [x] Configurar el repositorio principal de cada alumno para la materia
 
 ### Consignas a desarrollar en el trabajo práctico:
   - Los ejercicios representan casos concretos y rutinarios en uso de este tipo de herramientas
@@ -13,19 +13,20 @@ Este trabajo práctico corresponde a la unidad Nº: 1
 
 ## Desarrollo:
 
-#### 1- Instalar Git [x]
+#### [x] 1- Instalar Git
 
 #### 2- Crear un repositorio local y agregar archivos 
   - Crear un repositorio local en un nuevo directorio.
   - Agregar un archivo Readme.md, agregar algunas líneas con texto a dicho archivo.
   - Crear un commit y proveer un mensaje descriptivo.
 
-#### 3- Configuración del Editor Predeterminado
+#### [x] 3- Configuración del Editor Predeterminado
 En mi caso, utilice un editor llamado nano que puedo abrir simplemente con el comando con dicho nombre sumado al nombre del archivo desde la misma terminal de Ubuntu.
 
 ### 4- Creación de Repos 01 -> Crearlo en GitHub, clonarlo localmente y subir cambios
   - [x] Crear una cuenta en https://github.com
   - Crear un nuevo repositorio en dicha página con el Readme.md por defecto
+  
     ![](Capturas/4a.png) 
   - Clonar el repo remoto en un nuevo directorio local
   - Editar archivo Readme.md agregando algunas lineas de texto
