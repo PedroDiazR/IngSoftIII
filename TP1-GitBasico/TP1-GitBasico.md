@@ -26,7 +26,7 @@ En mi caso, utilice un editor llamado nano que puedo abrir simplemente con el co
 ### 4- Creación de Repos 01 -> Crearlo en GitHub, clonarlo localmente y subir cambios
   - [x] Crear una cuenta en https://github.com
   - Crear un nuevo repositorio en dicha página con el Readme.md por defecto
-    !(/Capturas/4a.png) 
+    ![](Capturas/4a.png) 
   - Clonar el repo remoto en un nuevo directorio local
   - Editar archivo Readme.md agregando algunas lineas de texto
   - Editar (o crear si no existe) el archivo .gitignore agregando los archivos *.bak
