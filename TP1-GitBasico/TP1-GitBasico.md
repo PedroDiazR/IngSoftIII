@@ -13,27 +13,38 @@ Este trabajo práctico corresponde a la unidad Nº: 1
 
 ## Desarrollo:
 
-#### [x] 1- Instalar Git
+#### 1 - [x] Instalar Git
 
 #### 2- Crear un repositorio local y agregar archivos 
   - Crear un repositorio local en un nuevo directorio.
   - Agregar un archivo Readme.md, agregar algunas líneas con texto a dicho archivo.
   - Crear un commit y proveer un mensaje descriptivo.
 
-#### [x] 3- Configuración del Editor Predeterminado
+#### 3- Configuración del Editor Predeterminado ✅
 En mi caso, utilice un editor llamado nano que puedo abrir simplemente con el comando con dicho nombre sumado al nombre del archivo desde la misma terminal de Ubuntu.
 
 ### 4- Creación de Repos 01 -> Crearlo en GitHub, clonarlo localmente y subir cambios
   - [x] Crear una cuenta en https://github.com
   - Crear un nuevo repositorio en dicha página con el Readme.md por defecto
-  
+
     ![](Capturas/4a.png) 
   - Clonar el repo remoto en un nuevo directorio local
+    
+    ![](Capturas/4b.png) 
+      
+    ![](Capturas/4c.png) 
   - Editar archivo Readme.md agregando algunas lineas de texto
+    
+    ![](Capturas/4e.png) 
   - Editar (o crear si no existe) el archivo .gitignore agregando los archivos *.bak
-  - Crear un commit y porveer un mensaje descriptivo
-  - Intentar un push al repo remoto
-  - En caso de ser necesario configurar las claves SSH requeridas y reintentar el push.
+    
+    ![](Capturas/4g.png)
+      
+    ![](Capturas/4f.png)  
+  - Crear un commit y proveer un mensaje descriptivo, Intentar un push al repo remoto
+    
+    ![](Capturas/4h.png)  
+  - [x] En caso de ser necesario configurar las claves SSH requeridas y reintentar el push.
 
 #### 5- Creación de Repos 02-> Crearlo localmente y subirlo a GitHub
   - Crear un repo local
