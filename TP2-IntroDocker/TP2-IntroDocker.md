@@ -117,21 +117,37 @@ Este trabajo práctico corresponde a la unidad Nº: 2 (Libro Ingeniería de Soft
 
 
   > El **FROM** define la imagen base para la etapa `base`. Aquí se está utilizando una imagen oficial de ASP.NET Core 7.0, que proporciona un entorno de ejecución para aplicaciones ASP.NET Core.
+
   > El **WORKDIR** establece el directorio de trabajo en el contenedor a `/app`. Este será el directorio en el que se ejecutarán los comandos subsiguientes.
+  
   > Los **EXPOSE** documentan los puertos que la aplicación escuchará en el contenedor. Esto no publica los puertos, solo sirve como documentación para otros contenedores y herramientas sobre qué puertos están disponibles.
+  
   > El segundo **FROM** define una nueva etapa de construcción llamada `build`. Esta etapa usa la imagen del SDK de .NET Core 7.0, que incluye herramientas necesarias para construir y publicar aplicaciones .NET.
+
   > El segundo **WORKDIR** cambia el directorio de trabajo a `/src`. Todos los comandos siguientes se ejecutarán en este directorio.
+
   > Como dice el nombre, **COPY** copia el archivo del proyecto `SimpleWebAPI.csproj` desde el directorio `SimpleWebAPI` en el contexto de construcción al mismo directorio dentro del contenedor.
+
   > El comando **RUN** ejecuta el comando `dotnet restore` para restaurar las dependencias del proyecto especificado en `SimpleWebAPI.csproj`.
+
   > El segundo **COPY** copia todos los archivos del contexto de construcción al directorio de trabajo actual en el contenedor (`/src`).
+
   > El tercer **WORKDIR** cambia el directorio de trabajo a `/src/SimpleWebAPI`, que es donde se encuentra el proyecto de la aplicación.
+
   > Este segundo **RUN** ejecuta el comando `dotnet build` para compilar el proyecto en modo `Release`, colocando los archivos compilados en `/app/build`.
+
   > El tercer **FROM** inicia una nueva etapa llamada `publish` basada en la etapa `build`. Aquí, se utiliza la imagen construida en la etapa `build` para publicar la aplicación.
+
   > El último **RUN** ejecuta el comando `dotnet publish` para publicar la aplicación en modo `Release`, generando archivos listos para producción en `/app/publish`. El parámetro `/p:UseAppHost=false` evita la inclusión del ejecutable específico del sistema operativo.
+
   > El último **FROM** inicia una nueva etapa llamada `final` basada en la etapa `base`. Esta etapa utiliza la imagen base `aspnet` para el entorno de ejecución.
+
   > Este último **WORKDIR** cambia el directorio de trabajo a `/app` en la etapa final.
+
   > El **COPY** de debajo copia los archivos generados en la etapa publish desde `/app/publish` al directorio de trabajo actual (`/app`) en la etapa final.
+
   > El **ENTRYPOINT** establece el comando predeterminado que se ejecutará cuando el contenedor se inicie. En este caso, se inicia la aplicación ASP.NET Core usando `dotnet` para ejecutar `SimpleWebAPI.dll`.
+
   > El **CMD** está comentado, pero normalmente sería usado para especificar un comando predeterminado en el contenedor, en lugar del ENTRYPOINT. En este caso, parece que el ENTRYPOINT está configurado para ejecutar la aplicación .NET, por lo que este comando no se usa.
 
 - Ejecutar un contenedor con nuestra imagen
@@ -272,6 +288,7 @@ exit
 - Explicar que se logro con el comando `docker run` y `docker exec` ejecutados en este ejercicio.
 
 > El primer comando ejecuta un contenedor interactivo (`-it`) basado en la imagen `mywebapi`, mapea el puerto 80 del contenedor al puerto 80 del host (`-p 80:80`), monta el directorio `/Users/miuser/temp` del host en `/var/temp` dentro del contenedor (`-v`), y elimina el contenedor automáticamente después de que se detenga (`--rm`).
+
 > El segundo abre una terminal interactiva (`-it`) dentro del contenedor `my-postgres`, ejecutando el shell `/bin/bash` para permitir la ejecución de comandos dentro del contenedor en tiempo real.
 
 ### 12- Hacer el punto 11 con Microsoft SQL Server
