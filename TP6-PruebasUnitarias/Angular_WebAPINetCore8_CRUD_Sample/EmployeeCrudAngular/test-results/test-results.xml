@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 129.0.0.0 (Windows 10)" package="" timestamp="2024-09-25T02:06:31" id="0" hostname="DESKTOP-2U34CNI" tests="12" errors="0" failures="0" time="0.271">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/129.0.0.0 Safari/537.36"/>
+  </properties>
+  <testcase name="AddemployeeComponent should load employee for editing if id is present in query params" time="0.137" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should create employee if name is valid and not duplicated" time="0.02" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should display error if name contains numbers" time="0.009" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should display error if name contains inappropriate words" time="0.008" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should display error if name contains symbols" time="0.007" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should call EmployeeService.createEmployee when adding a valid employee" time="0.008" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should display error if name is duplicated" time="0.008" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should create" time="0.007" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should display error if name is just spaces" time="0.007" classname="AddemployeeComponent"/>
+  <testcase name="EmployeeService should retrieve all employees" time="0.01" classname="EmployeeService"/>
+  <testcase name="AppComponent should render title" time="0.013" classname="AppComponent"/>
+  <testcase name="EmployeeComponent should create" time="0.037" classname="EmployeeComponent"/>
+  <system-out>
+    <![CDATA[Chrome Headless 129.0.0.0 (Windows 10) WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+,Chrome Headless 129.0.0.0 (Windows 10) WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

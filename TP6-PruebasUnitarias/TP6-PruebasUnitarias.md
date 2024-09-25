@@ -767,7 +767,7 @@ describe('AddemployeeComponent', () => {
 ```
 
 > Por último las corrí todas correctamente con el comando `ng test`:
- ![](Capturas/4.7.7.png)
+ ![](Capturas/4.7.8.png)
 
 ###  Presentación del trabajo práctico.
 - Subir un doc al repo con las capturas de pantalla de los pasos realizados
