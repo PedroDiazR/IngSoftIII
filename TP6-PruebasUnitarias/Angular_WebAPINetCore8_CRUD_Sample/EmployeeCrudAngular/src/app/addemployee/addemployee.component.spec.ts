@@ -68,7 +68,6 @@ describe('AddemployeeComponent', () => {
     expect(toastrService.error).toHaveBeenCalledWith('El nombre contiene palabras inapropiadas.');
   });
 
-  // 1. Test para nombres duplicados
   it('should display error if name is duplicated', () => {
     // Crea una instancia de Employee con parámetros correctos
     const duplicatedEmployee = new Employee(0, 'Juan Carlos', new Date().toISOString());

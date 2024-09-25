@@ -134,7 +134,7 @@ namespace EmployeeCrudApi.Tests
         {
             var context = GetInMemoryDbContext();
             var controller = new EmployeeController(context);
-            var newEmployee = new Employee { Id = 6, Name = "palabra1" };
+            var newEmployee = new Employee { Id = 6, Name = "palabrota" };
 
             var result = await controller.Create(newEmployee);
 

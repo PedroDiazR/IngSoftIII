@@ -16,7 +16,7 @@ namespace EmployeeCrudApi.Controllers
     public class EmployeeController : ControllerBase
     {
         private ApplicationDbContext _context;
-        private readonly List<string> inappropriateWords = new List<string> { "palabra1", "palabra2" }; // Agrega aquí palabras inapropiadas
+        private readonly List<string> inappropriateWords = new List<string> { "palabron", "palabrota" }; // Agrega aquí palabras inapropiadas
 
         public EmployeeController(ApplicationDbContext context)
         {
