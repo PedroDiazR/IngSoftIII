@@ -95,6 +95,22 @@ Al finalizar esta sesión, los estudiantes serán capaces de:
   - **H)** Deploy Back y Front en PROD para ACI
   - **I)** Deploy Back y Front en PROD para Azure Web Apps con Soporte para contenedores
 
+	> Primero cree un nuevo pipeline específico para este punto, el cual usa templates.
+		![](Capturas/4.2.5a.png)
+
+	> Corremos el pipeline:
+		- Vemos que frena para pedir aprobación
+			![](Capturas/4.2.5c.png)
+		- Primero vemos el CodeCoverage
+			![](Capturas/4.2.5b.png)
+		- Y en los dominios vemos que efectivamente no problemas
+			![](Capturas/4.2.5d.png)
+		- Aceptamos los approvals para seguir con los PROD
+			![](Capturas/4.2.5e.png)
+		- Termino correctamente
+			![](Capturas/4.2.5f.png)
+		- Y nos dirigimos a las urls
+			![](Capturas/4.2.5g.png)	
 
 ### Presentación del trabajo práctico.
 - Subir un doc al repo de GitHub con las capturas de pantalla de los pasos realizados. Debe ser un documento (md, word, o pdf), no videos. Y el documento debe seguir los pasos indicados en el Desarrollo del TP.
