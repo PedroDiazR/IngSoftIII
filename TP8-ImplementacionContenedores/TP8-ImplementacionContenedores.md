@@ -144,7 +144,6 @@ Al finalizar esta sesión, los estudiantes serán capaces de:
 					![](Capturas/4.1.11h.png)
 
   	  - **4.1.12** Agregar tareas para correr pruebas de integración en el entorno de QA de Back y Front creado en ACI.
-  			
 			![](Capturas/4.1.12a.png)
 
 		> Antes de correr el pipeline, borré los test de prueba que hicimos en el **TP7** (`primer_test` y `addEmployee_test`). Además, modifiqué los test restantes para que tomen el nuevo **baseUrl**:
