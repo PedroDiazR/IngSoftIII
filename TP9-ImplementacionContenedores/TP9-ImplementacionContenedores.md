@@ -85,31 +85,37 @@ Al finalizar esta sesión, los estudiantes serán capaces de:
 		![](Capturas/4.2.4g.png)
 
 - **4.2.5** Entregar un pipeline que incluya:
-  - **A)** Etapa Construcción y Pruebas Unitarias y Code Coverage Back y Front
-  - **B)** Construcción de Imágenes Docker y subida a ACR
-  - **C)** Deploy Back y Front en QA con pruebas de integración para Azure Web Apps
-  - **D)** Deploy Back y Front en QA con pruebas de integración para ACI
-  - **E)** Deploy Back y Front en QA con pruebas de integración para Azure Web Apps con Soporte para contenedores
-  - **F)** Aprobación manual de QA para los puntos C,D,E
-  - **G)** Deploy Back y Front en PROD para Azure Web Apps
-  - **H)** Deploy Back y Front en PROD para ACI
-  - **I)** Deploy Back y Front en PROD para Azure Web Apps con Soporte para contenedores
+
+  - [x] **A)** Etapa Construcción y Pruebas Unitarias y Code Coverage Back y Front
+  - [x] **B)** Construcción de Imágenes Docker y subida a ACR
+  - [x] **C)** Deploy Back y Front en QA con pruebas de integración para Azure Web Apps
+  - [x] **D)** Deploy Back y Front en QA con pruebas de integración para ACI
+  - [x] **E)** Deploy Back y Front en QA con pruebas de integración para Azure Web Apps con Soporte para contenedores
+  - [x] **F)** Aprobación manual de QA para los puntos C,D,E
+  - [x] **G)** Deploy Back y Front en PROD para Azure Web Apps
+  - [x] **H)** Deploy Back y Front en PROD para ACI
+  - [x] **I)** Deploy Back y Front en PROD para Azure Web Apps con Soporte para contenedores
 
 	> Primero cree un nuevo pipeline específico para este punto, el cual usa templates.
 		![](Capturas/4.2.5a.png)
 
-	> Corremos el pipeline:
-		- Vemos que frena para pedir aprobación
+	- Corremos el pipeline:
+		> Vemos que frena para pedir aprobación	
 			![](Capturas/4.2.5c.png)
-		- Primero vemos el CodeCoverage
+		
+		> Primero vemos el CodeCoverage
 			![](Capturas/4.2.5b.png)
-		- Y en los dominios vemos que efectivamente no problemas
+		
+		> Y en los dominios vemos que efectivamente no problemas
 			![](Capturas/4.2.5d.png)
-		- Aceptamos los approvals para seguir con los PROD
+		
+		> Aceptamos los approvals para seguir con los PROD
 			![](Capturas/4.2.5e.png)
-		- Termino correctamente
+		
+		> Termino correctamente
 			![](Capturas/4.2.5f.png)
-		- Y nos dirigimos a las urls
+		
+		> Y nos dirigimos a las urls
 			![](Capturas/4.2.5g.png)	
 
 ### Presentación del trabajo práctico.
